@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ubelicious - Menu</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* =========================
+   ADD-ONS SECTION
+   ========================= */
+
+.addons-section {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.addons-section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.addons-section .section-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* THREE ADD-ONS IN ONE HORIZONTAL LINE */
+
+.addons-grid {
+    width: 90%;
+    max-width: 1050px;
+    margin: 0 auto 35px auto;
+
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+
+    gap: 30px;
+}
+
+
+/* EACH ADD-ON */
+
+.addon-card {
+    flex: 1 1 0;
+    width: 30%;
+    max-width: 300px;
+
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* ADD-ON IMAGE */
+
+.addon-image {
+    width: 100%;
+    height: 160px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 15px;
+}
+
+.addon-image img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+
+/* ADD-ON TITLE */
+
+.addon-card h3 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+/* ADD-ON DESCRIPTION */
+
+.addon-card p {
+    text-align: center;
+    margin: 8px 0;
+}
+
+
+/* ORDER BUTTON */
+
+.order-button {
+    display: inline-block;
+    margin: 20px auto;
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 700px) {
+
+    .addons-grid {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .addon-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+     ========================= -->
+
+<div class="header">
+
+    <div class="brand">
+
+        <img src="ubeliciouss.png"
+             class="logo"
+             alt="Ubelicious Logo">
+
+        <div class="brand-text">
+
+            <div class="title">
+                UBELICIOUS
+            </div>
+
+            <div class="tagline">
+                "Smile in Every Bite"
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <div class="nav">
+
+        <a href="home.html">
+            HOME
+        </a>
+
+        <a href="about-us.html">
+            ABOUT US
+        </a>
+
+        <a href="menu.html" class="active">
+            MENU
+        </a>
+
+        <a href="media.html">
+            MEDIA
+        </a>
+
+        <a href="order.html">
+            ORDER
+        </a>
+
+        <a href="contact-us.html">
+            CONTACT US
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================
+     MAIN MENU
+     ========================= -->
+
+<div class="page-section">
+
+
+    <!-- =========================
+         UBE BREAD DELIGHTS
+         ========================= -->
+
+    <h1>UBE BREAD DELIGHTS</h1>
+
+
+    <div class="card-grid">
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube pandesal.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Pandesal">
+            </div>
+
+            <h3>Ube Pandesal</h3>
+
+            <p>
+                Soft and fluffy bread filled with creamy ube goodness.
+            </p>
+
+            <p>
+                <b>₱15</b>
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube cheese roll.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Cheese Roll">
+            </div>
+
+            <h3>Ube Cheese Roll</h3>
+
+            <p>
+                Soft bread rolled with delicious ube and cream cheese filling.
+            </p>
+
+            <p>
+                <b>₱18</b>
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube twist.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Twist">
+            </div>
+
+            <h3>Ube Twist</h3>
+
+            <p>
+                Twisted ube bread dusted with sugar for an extra sweet delight.
+            </p>
+
+            <p>
+                <b>₱20</b>
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube cream bun.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Cream Bun">
+            </div>
+
+            <h3>Ube Cream Bun</h3>
+
+            <p>
+                Soft bun filled with smooth and creamy ube filling.
+            </p>
+
+            <p>
+                <b>₱20</b>
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube ensaymada.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Ensaymada">
+            </div>
+
+            <h3>Ube Ensaymada</h3>
+
+            <p>
+                Buttery and cheesy Filipino bread with premium ube.
+            </p>
+
+            <p>
+                <b>₱25</b>
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+                <img src="ube loaf.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Loaf">
+            </div>
+
+            <h3>Ube Loaf</h3>
+
+            <p>
+                Moist and fluffy ube bread, perfect for breakfast or sharing with family.
+            </p>
+
+            <p>
+                <b>₱85</b>
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+    <hr>
+
+
+
+    <!-- =========================
+         UBE MILK TEA CREATIONS
+         ========================= -->
+
+    <h1>UBE MILK TEA CREATIONS</h1>
+
+
+    <div class="card-grid">
+
+
+        <div class="card">
+
+            <div class="card-image">
+
+                <img src="ube milk tea.png"
+                     width="130"
+                     height="160"
+                     alt="Ube Milk Tea">
+
+            </div>
+
+            <h3>
+                Ube Milk Tea
+            </h3>
+
+            <p>
+                The classic rich ube flavor with creamy milk tea.
+            </p>
+
+            <p>
+                16 oz — ₱55<br>
+                22 oz — ₱65
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+
+                <img src="ube cheese milk tea.png"
+                     width="160"
+                     height="160"
+                     alt="Ube Cheese Milk Tea">
+
+            </div>
+
+            <h3>
+                Ube Cheese Milk Tea
+            </h3>
+
+            <p>
+                Smooth ube milk tea topped with creamy cheese foam.
+            </p>
+
+            <p>
+                16 oz — ₱65<br>
+                22 oz — ₱75
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+
+                <img src="ube brown sugar.png"
+                     width="130"
+                     height="160"
+                     alt="Ube Brown Sugar Milk Tea">
+
+            </div>
+
+            <h3>
+                Ube Brown Sugar Milk Tea
+            </h3>
+
+            <p>
+                Ube milk tea with brown sugar and chewy pearls.
+            </p>
+
+            <p>
+                16 oz — ₱65<br>
+                22 oz — ₱75
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+
+                <img src="taro milk tea.png"
+                     width="130"
+                     height="180"
+                     alt="Ube Taro Milk Tea">
+
+            </div>
+
+            <h3>
+                Ube Taro Milk Tea
+            </h3>
+
+            <p>
+                A perfect blend of ube and taro for double delight.
+            </p>
+
+            <p>
+                16 oz — ₱60<br>
+                22 oz — ₱70
+            </p>
+
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-image">
+
+                <img src="ube matcha.png"
+                     width="130"
+                     height="160"
+                     alt="Ube Matcha Milk Tea">
+
+            </div>
+
+            <h3>
+                Ube Matcha Milk Tea
+            </h3>
+
+            <p>
+                Earthy matcha meets sweet ube for a unique twist.
+            </p>
+
+            <p>
+                16 oz — ₱65<br>
+                22 oz — ₱75
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+
+    <hr>
+
+
+
+    <!-- =========================
+         ADD-ONS
+         ========================= -->
+
+    <div class="addons-section">
+
+
+        <h2>
+            ADD-ONS
+        </h2>
+
+
+        <p class="section-description">
+            Customize your order with our available add-ons.
+        </p>
+
+
+
+        <!-- HORIZONTAL ADD-ONS -->
+
+        <div class="addons-grid">
+
+
+            <!-- EXTRA UBE -->
+
+            <div class="addon-card">
+
+                <div class="addon-image">
+
+                    <img src="halaya.png"
+                         alt="Extra Ube">
+
+                </div>
+
+                <h3>
+                    Extra Ube
+                </h3>
+
+                <p>
+                    Add more creamy ube goodness to your order.
+                </p>
+
+                <p>
+                    <b>₱15</b>
+                </p>
+
+            </div>
+
+
+
+            <!-- EXTRA CREAM CHEESE -->
+
+            <div class="addon-card">
+
+                <div class="addon-image">
+
+                    <img src="sweet cream.png"
+                         alt="Extra Cream Cheese">
+
+                </div>
+
+                <h3>
+                    Extra Cream Cheese
+                </h3>
+
+                <p>
+                    Add extra creamy and cheesy goodness.
+                </p>
+
+                <p>
+                    <b>₱10</b>
+                </p>
+
+            </div>
+
+
+
+            <!-- PEARLS -->
+
+            <div class="addon-card">
+
+                <div class="addon-image">
+
+                    <img src="pearls.png"
+                         alt="Pearls">
+
+                </div>
+
+                <h3>
+                    Pearls
+                </h3>
+
+                <p>
+                    Add chewy pearls for an extra fun texture.
+                </p>
+
+                <p>
+                    <b>₱10</b>
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =========================
+             ORDER BUTTON
+             ========================= -->
+
+        <a href="order.html"
+           class="order-button">
+
+            CLICK THIS TO ORDER
+
+        </a>
+
+
+    </div>
+
+
+</div>
+
+
+
+<!-- =========================
+     FOOTER
+     ========================= -->
+
+<div class="footer">
+
+    <b>
+        UBELICIOUS | SMILE IN EVERY BITE.
+    </b>
+
+    <br>
+
+    © 2026 UBELICIOUS. All Rights Reserved.
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,421 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ubelicious - About Us</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* =========================
+   ABOUT US PAGE
+========================= */
+
+.page-section {
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    padding: 60px 50px;
+}
+
+
+/* =========================
+   ABOUT UBELICIOUS
+========================= */
+
+.about-box {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.about-box h1 {
+    color: #4b2875;
+    font-size: 42px;
+    margin-bottom: 25px;
+}
+
+.about-box p {
+    max-width: 1050px;
+    margin: 0 auto 20px;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   MISSION & VISION
+========================= */
+
+.mission-vision {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 40px auto 70px;
+    max-width: 1050px;
+}
+
+.simple-section {
+    flex: 1;
+    text-align: center;
+}
+
+.simple-section h2 {
+    color: #4b2875;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.simple-section p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* =========================
+   ABOUT THE OWNER
+========================= */
+
+.owner-section {
+    margin: 30px auto 70px;
+    max-width: 1100px;
+}
+
+.owner-section > h2 {
+    text-align: center;
+    color: #4b2875;
+    font-size: 34px;
+    margin-bottom: 35px;
+}
+
+
+/* IMAGE LEFT + DESCRIPTION RIGHT */
+
+.owner-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+}
+
+
+/* OWNER IMAGE */
+
+.owner-image {
+    width: 38%;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.owner-image img {
+    width: 100%;
+    max-width: 360px;
+    height: 390px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+
+/* OWNER DESCRIPTION */
+
+.owner-description {
+    width: 62%;
+}
+
+.owner-description p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin: 0;
+}
+
+
+/* =========================
+   WHAT MAKES US SPECIAL
+========================= */
+
+.special-section {
+    max-width: 950px;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+
+.special-section h2 {
+    color: #4b2875;
+    font-size: 32px;
+    margin-bottom: 18px;
+}
+
+.special-section p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+
+    .page-section {
+        padding: 40px 25px;
+    }
+
+    .about-box h1 {
+        font-size: 32px;
+    }
+
+    .about-box p {
+        font-size: 17px;
+    }
+
+    .mission-vision {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .owner-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .owner-image {
+        width: 100%;
+    }
+
+    .owner-description {
+        width: 100%;
+    }
+
+    .owner-description p {
+        text-align: justify;
+    }
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<div class="header">
+
+    <div class="brand">
+
+        <img src="ubeliciouss.png"
+             class="logo"
+             alt="Ubelicious Logo">
+
+        <div class="brand-text">
+
+            <div class="title">
+                UBELICIOUS
+            </div>
+
+            <div class="tagline">
+                "Smile in Every Bite"
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <hr>
+
+
+    <!-- NAVIGATION -->
+
+    <div class="nav">
+
+        <a href="home.html">
+            HOME
+        </a>
+
+        <a href="about-us.html" class="active">
+            ABOUT US
+        </a>
+
+        <a href="menu.html">
+            MENU
+        </a>
+
+        <a href="media.html">
+            MEDIA
+        </a>
+
+        <a href="order.html">
+            ORDER
+        </a>
+
+        <a href="contact-us.html">
+            CONTACT US
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- =========================
+     MAIN CONTENT
+========================= -->
+
+<div class="page-section">
+
+
+    <!-- ABOUT UBELICIOUS -->
+
+    <section class="about-box">
+
+        <h1>
+            ABOUT UBELICIOUS
+        </h1>
+
+        <p>
+            The name Ubelicious combines "ube" and "delicious," reflecting the sweet and delightful experience found in every bite.
+        </p>
+
+        <p>
+            Ubelicious started with a simple love for the color purple. Inspired by its beauty and uniqueness, we turned that favorite color into something meaningful and delicious.
+        </p>
+
+        <p>
+            It is for everyone. Affordable, delicious, and made for families, friends, and every ube lover.
+        </p>
+
+    </section>
+
+
+
+    <!-- =========================
+         MISSION & VISION
+    ========================= -->
+
+    <section class="mission-vision">
+
+
+        <div class="simple-section">
+
+            <h2>
+                MISSION
+            </h2>
+
+            <p>
+                Our mission is to create delicious and affordable ube-inspired treats using quality ingredients, creativity, and care while giving our customers a satisfying experience.
+            </p>
+
+        </div>
+
+
+        <div class="simple-section">
+
+            <h2>
+                VISION
+            </h2>
+
+            <p>
+                Our vision is to become a memorable ube-inspired brand known for delicious products, creative flavors, and happy customers.
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- =========================
+         ABOUT THE OWNER
+    ========================= -->
+
+    <section class="owner-section">
+
+        <h2>
+            ABOUT THE OWNER
+        </h2>
+
+
+        <div class="owner-container">
+
+            <!-- LEFT: OWNER IMAGE -->
+
+            <div class="owner-image">
+
+                <img src="owner.png"
+                     alt="Maria Rexie Ann Gacayan - Owner of Ubelicious">
+
+            </div>
+
+
+            <!-- RIGHT: OWNER DESCRIPTION -->
+
+            <div class="owner-description">
+
+                <p>
+                    A dedicated and passionate individual who believes in creating something meaningful through creativity, hard work, and love for what she does. With a strong sense of responsibility and determination, she continues to learn, grow, and bring new ideas to Ubelicious. She also has a love for the color purple, which inspired the brand’s signature purple theme and adds a personal touch to Ubelicious. Through the brand, she hopes to share delicious ube-inspired treats while creating a simple, enjoyable, and memorable experience for every customer.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         WHAT MAKES US SPECIAL
+    ========================= -->
+
+    <section class="special-section">
+
+        <h2>
+            WHAT MAKES US SPECIAL
+        </h2>
+
+        <p>
+            We make ube-inspired treats with quality, creativity, and care. Every product is made to give our customers a delicious experience and a reason to smile.
+        </p>
+
+    </section>
+
+
+</div>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<div class="footer">
+
+    <b>
+        UBELICIOUS | SMILE IN EVERY BITE.
+    </b>
+
+    <br>
+
+    © 2026 UBELICIOUS. All Rights Reserved.
+
+</div>
+
+
+</body>
+</html>
+```

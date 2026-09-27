@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ubelicious - Contact Us</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+
+.page-section {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* CONTACT INFORMATION + LOCATION */
+
+.contact-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    box-sizing: border-box;
+}
+
+/* LEFT AND RIGHT SIDE */
+
+.contact-column {
+    width: calc(50% - 20px);
+    max-width: 550px;
+    box-sizing: border-box;
+}
+
+/* DARK CONTACT BOXES */
+
+.dark-box {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 30px 25px;
+    text-align: center;
+}
+
+/* MAP TITLE */
+
+.location-column h2 {
+    text-align: center;
+}
+
+/* GOOGLE MAP */
+
+.map-image {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.map-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+/* LOCATION TEXT */
+
+.location-column p {
+    text-align: center;
+}
+
+/* BUTTONS */
+
+.location-column .button {
+    display: block;
+    width: fit-content;
+    margin: 15px auto 35px auto;
+}
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .contact-container {
+        width: 90%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contact-column {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .map-image {
+        height: 300px;
+    }
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     HEADER
+     ========================= -->
+
+<div class="header">
+
+    <div class="brand">
+
+        <img src="ubeliciouss.png"
+             class="logo"
+             alt="Ubelicious Logo">
+
+        <div class="brand-text">
+
+            <div class="title">
+                UBELICIOUS
+            </div>
+
+            <div class="tagline">
+                "Smile in Every Bite"
+            </div>
+
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="nav">
+
+        <a href="home.html">
+            HOME
+        </a>
+
+        <a href="about-us.html">
+            ABOUT US
+        </a>
+
+        <a href="menu.html">
+            MENU
+        </a>
+
+        <a href="media.html">
+            MEDIA
+        </a>
+
+        <a href="order.html">
+            ORDER
+        </a>
+
+        <a href="contact-us.html" class="active">
+            CONTACT US
+        </a>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     CONTACT US
+     ========================= -->
+
+<div class="page-section">
+
+    <h1>
+        LET'S CONNECT!
+    </h1>
+
+    <h2>
+        We'd love to hear from you. Find us, message us, or visit us!
+    </h2>
+
+
+    <!-- =========================
+         CONTACT + LOCATION
+         ========================= -->
+
+    <div class="contact-container">
+
+
+        <!-- =========================
+             LEFT COLUMN
+             ========================= -->
+
+        <div class="contact-column">
+
+
+            <!-- FACEBOOK -->
+
+            <div class="dark-box">
+
+                <h2>
+                    FACEBOOK PAGE
+                </h2>
+
+                <p>
+                    Visit our Facebook page for updates,
+                    announcements, and more.
+                </p>
+
+                <a href="https://web.facebook.com/profile.php?id=61591893131410"
+                   class="media-button"
+                   target="_blank"
+                   rel="noopener">
+
+                    OPEN FB PAGE
+
+                </a>
+
+            </div>
+
+
+            <!-- PHONE -->
+
+            <div class="dark-box">
+
+                <h2>
+                    CALL OR TEXT
+                </h2>
+
+                <p>
+                    09774588743
+                </p>
+
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <div class="dark-box">
+
+                <h2>
+                    EMAIL US
+                </h2>
+
+                <p>
+                    marexieanngacayan@gmail.com
+                </p>
+
+            </div>
+
+
+            <!-- BUSINESS HOURS -->
+
+            <div class="dark-box">
+
+                <h2>
+                    BUSINESS HOURS
+                </h2>
+
+                <p>
+                    8:00 AM – 6:00 PM
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- =========================
+             RIGHT COLUMN
+             ========================= -->
+
+        <div class="contact-column location-column">
+
+
+            <h2>
+                FIND US HERE
+            </h2>
+
+
+            <!-- GOOGLE MAP IMAGE -->
+
+            <div class="map-image">
+
+                <img src="google map.png"
+     alt="Ubelicious Google Maps Location"
+     style="width:100%; height:400px; object-fit:contain; display:block; margin:0 auto;">
+
+            </div>
+
+            <!-- LOCATION -->
+
+            <h2>
+                OUR LOCATION
+            </h2>
+
+
+            <p>
+                Zone 5, Bonifacio Street, Barangay Ilocanos Sur,
+                City of San Fernando, La Union
+            </p>
+
+
+            <a href="https://maps.app.goo.gl/6koPS5rA8yLxY65S6"
+               class="button"
+               target="_blank"
+               rel="noopener">
+
+                GET DIRECTIONS
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+    <!-- =========================
+         MESSAGE US
+         ========================= -->
+
+    <div class="order-box">
+
+        <h2>
+            WE'RE HAPPY TO HEAR FROM YOU!
+        </h2>
+
+        <p>
+            Send us your questions, feedback, or bulk order inquiries.
+        </p>
+
+        <a href="https://web.facebook.com/profile.php?id=61591893131410"
+           class="button"
+           target="_blank"
+           rel="noopener">
+
+            SEND US A MESSAGE
+
+        </a>
+
+    </div>
+
+
+</div>
+
+
+<!-- =========================
+     FOOTER
+     ========================= -->
+
+<div class="footer">
+
+    <b>
+        UBELICIOUS | SMILE IN EVERY BITE.
+    </b>
+
+    <br>
+
+    © 2026 UBELICIOUS. All Rights Reserved.
+
+</div>
+
+
+</body>
+</html>
